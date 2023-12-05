@@ -8,7 +8,7 @@ const ViewTask =()=>{
        try{
           event.preventDefault()
           const taskID = document.querySelector("#taskID").value;
-          const res = await fetch(`http://localhost:3000/api/ethereum/view-task/${taskID}`,
+          const res = await fetch(`https://todo-back-k949.onrender.com/api/ethereum/view-task/${taskID}`,
           {
             method:"GET",
             headers:{

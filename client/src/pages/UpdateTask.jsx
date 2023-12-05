@@ -18,7 +18,7 @@ const UpdateTask =({state})=>{
 
         try{
           const res = await fetch(
-            "http://localhost:3000/api/ethereum/update-task",
+            "https://todo-back-k949.onrender.com/api/ethereum/update-task",
             {
                 method:"POST",
                 headers:{

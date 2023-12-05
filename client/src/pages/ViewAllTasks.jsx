@@ -6,7 +6,7 @@ const ViewAllTasks =()=>{
     useEffect(()=>{
       const allTasks = async()=>{
         try{
-            const res = await fetch("http://localhost:3000/api/ethereum/view-all-task",{
+            const res = await fetch("https://todo-back-k949.onrender.com/api/ethereum/view-all-task",{
                 method:"GET",
                 headers:{
                     "Accept":"application/json"
