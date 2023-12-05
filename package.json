@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "BERN Project is a decentralized application (dApp) that utilizes the Ethereum blockchain for transparency and security. It provides a user-friendly interface built with React.js for interacting with the blockchain, while the server side is powered by Node.js and Express.",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd api && npm install",
+    "start-server": "cd api && node server.js",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
